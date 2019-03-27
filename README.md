@@ -1,8 +1,6 @@
-# FergoPixelEngine
+# Fergo Pixel Engine
 
-**SOURCE CODE WILL BE UPLOADED SOON**
-
-My basic implementation of a 32-bit pixel rendering plataform in C#. Currently supporting basic functions like DrawPixel, DrawLine, DrawRectangle, DrawCircle. I tried to make its usage as simple as possible, as described below.
+This is a very basic implementation of a 32-bit pixel rendering plataform in C#. Currently supporting basic functions like DrawPixel, DrawLine, DrawRectangle, DrawCircle. I tried to make its usage as simple as possible, as described below.
 
 The engine is not supposed to be fast. My main intentions with it is to mimic olcConsoleGameEngine from [javidx9](https://github.com/OneLoneCoder) but using a Windows Form instead of the console for output. I also want to keep it independent from external rendering libraries such as OpenGL and DirectX, so I'm sticking to the regular .NET drawing classes.
 
