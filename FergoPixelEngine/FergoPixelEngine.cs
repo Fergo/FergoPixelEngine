@@ -25,7 +25,7 @@ namespace FergoPixelEngine {
 		protected double FPS;
 		protected double elapsedTime;
 
-		//Default constructor
+		//Setup the enviroment
 		public void Create(Form RenderTarget, uint Width, uint Height, uint PixelSize) {
 			float DPI;
 
